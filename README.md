@@ -1,2 +1,2 @@
-# cmd_tools_for_units
+# cl_unit_converter
 zsh command line unit converter for OSX
