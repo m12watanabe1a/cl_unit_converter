@@ -1,6 +1,6 @@
 # Convert celsius to kelvin
 function c2k(){
-  source .zconstants
+  source "$ZDOTDIR"/cl_unit_converter/.zconstants
   if [[ "$1" = <-> ]]; then
     let num=$1
     let result=$(( num - K2C ))

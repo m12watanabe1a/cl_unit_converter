@@ -1,6 +1,6 @@
 # Convert kelvin to celsius
 function k2c(){
-  source .zconstants
+  source "$ZDOTDIR"/cl_unit_converter/.zconstants
   if [[ "$1" = <-> ]]; then
     let num=$1
     let result=$(( num + K2C ))
@@ -11,5 +11,3 @@ function k2c(){
     return -1
   fi
 }
-
-
